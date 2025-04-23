@@ -1,71 +1,70 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SenaiGPT</title>
-  <link rel="stylesheet" href="chat.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SenaiGPT</title>
+    <link rel="stylesheet" href="chat.css" />
 </head>
 <body>
-  <div class="container">
-    <!-- Painel esquerdo -->
-    <aside class="left-panel">
-      <div class="top">
-        <div class="botaoNewChatPrincipal">
-          <button><img src="assets/imgs/IconSet (2).png" alt="Novo chat" /> New chat</button>
-        </div>
-        <button><img src="assets/imgs/ChatText.png" alt="chat01" /> AI Chat Tool Ethics</button>
-        <button><img src="assets/imgs/ChatText.png" alt="chat02" /> AI Chat Tool Impact Writing</button>
-        <button><img src="assets/imgs/ChatText.png" alt="chat03" /> New chat</button>
-      </div>
+    <div class="container">
+        <aside class="left-panel">
+            <div class="top">
+                <div class="botaoNewChatPrincipal">
+                    <button>+ New Chat</button>
+                </div>
+                <button><img src="assets/imgs/ChatText.png" alt="chat01" /> AI Chat Tool Ethics</button>
+                <button><img src="assets/imgs/ChatText.png" alt="chat02" /> AI Chat Tool Impact Writing</button>
+                <button><img src="assets/imgs/ChatText.png" alt="chat03" /> New chat</button>
+            </div>
 
-      <div class="bottom">
-        <button><img src="assets/imgs/IconSet.png" alt="lixeira" />Clear conversations</button>
-        <button><img src="assets/imgs/Sun.png" alt="sol" />Light mode</button>
-        <button><img src="assets/imgs/User.png" alt="usuario" />My account</button>
-        <button><img src="assets/imgs/ArrowSquareOut.png" alt="" />Updates & FAQ</button>
-        <button><img src="assets/imgs/IconSet (1).png" alt="sair" />Log out</button>
-      </div>
-    </aside>
+            <div class="bottom">
+                <button><img src="assets/imgs/IconSet.png" alt="lixeira" />Clear conversations</button>
+                <button><img src="assets/imgs/Sun.png" alt="sol" />Light mode</button>
+                <button><img src="assets/imgs/User.png" alt="usuario" />My account</button>
+                <button><img src="assets/imgs/ArrowSquareOut.png" alt="" />Updates & FAQ</button>
+                <button><img src="assets/imgs/IconSet (1).png" alt="sair" />Log out</button>
+            </div>
+        </aside>
 
-    <!-- Painel central -->
-    <main class="central-panel">
-      <div class="content-center">
-        <img src="assets/imgs/Chat.jpg" alt="SenaiGPT Logo" class="logo" />
-        <h1 class="titulo">SenaiGPT</h1>
+        <main class="central-panel">
+            <div class="content-center">
+                <img src="assets/imgs/Chat.jpg" alt="SenaiGPT Logo" class="logo" />
 
-        <div class="info-boxes">
-          <div class="info">
-            <img src="assets/imgs/icon-example.png" alt="" />
-            <h3>Examples</h3>
-            <p>"Explain quantum computing in simple terms"</p>
-            <p>"Got any creative ideas for a 10 year old's birthday?"</p>
-            <p>"How do I make an HTTP request in Javascript?"</p>
-          </div>
-          <div class="info">
-            <img src="assets/imgs/icon-capability.png" alt="" />
-            <h3>Capabilities</h3>
-            <p>Remembers what user said earlier in the conversation.</p>
-            <p>Allows user to provide follow-up corrections.</p>
-            <p>Trained to decline inappropriate requests.</p>
-          </div>
-          <div class="info">
-            <img src="assets/imgs/icon-limitations.png" alt="" />
-            <h3>Limitations</h3>
-            <p>May occasionally generate incorrect information.</p>
-            <p>May occasionally produce harmful instructions or biased content.</p>
-            <p>Limited knowledge of world and events after 2021.</p>
-          </div>
-        </div>
-      </div>
 
-      <!-- Campo de entrada -->
-      <div class="input-container">
-        <button class="audio-btn"></button>
-        <input type="text" placeholder="Type message" />
-        <button class="send-btn"></button>
-      </div>
-    </main>
-  </div>
+                <div class="info-boxes-container">
+                    <div class="info-boxes">
+                        <div class="info">
+                            <img src="assets/imgs/Chats.png" alt="icone chat" />
+                            <h3>Examples</h3>
+                            <p>"Explain quantum computing in simple terms"</p>
+                            <p>"Got any creative ideas for a 10 year old's birthday?"</p>
+                            <p>"How do I make an HTTP request in Javascript?"</p>
+                        </div>
+                        <div class="info">
+                            <img src="assets/imgs/iconeestrela.png" alt="" />
+                            <h3>Capabilities</h3>
+                            <p>Remembers what user said earlier in the conversation.</p>
+                            <p>Allows user to provide follow-up corrections.</p>
+                            <p>Trained to decline inappropriate requests.</p>
+                        </div>
+                        <div class="info">
+                            <img src="assets/imgs/iconeescudo.png" alt="" />
+                            <h3>Limitations</h3>
+                            <p>May occasionally generate incorrect information.</p>
+                            <p>May occasionally produce harmful instructions or biased content.</p>
+                            <p>Limited knowledge of world and events after 2021.</p>
+                        </div>
+                    </div>
+                    <div class="input-container">
+                        <button class="attach-btn"><img src="assets/imgs/iconeimg.png" alt="Anexar imagem" /></button>
+                        <button class="audio-btn"><img src="assets/imgs/iconeaudio.png" alt="Ouvir" /></button>
+                        <input type="text" placeholder="Type message" />
+                        <button class="send-btn"><img src="assets/imgs/iconeenviar.png" alt="Enviar" /></button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
 </body>
 </html>
